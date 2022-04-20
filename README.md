@@ -1,5 +1,7 @@
 # fastapi-tutorial
-FastAPI docs 
+> FastAPI docs 
+
+<br><br>
 
 ## Install requirements.txt
 
@@ -44,6 +46,8 @@ def read_item(item_id: int, q: Optional[str] = None):
 - get, put 요청에 item_id가 경롤에 있는지 검증
 - get, put 요청에 item_id 데이터 타입 확인
 - get 요청에 q = 선택적인 쿼리 매개 확인 (None-선택사항, None없음-필수사항)
+
+<br><br>
 
 ### pydantic-tutorial
 - ujson
