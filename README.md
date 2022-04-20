@@ -75,8 +75,9 @@ def update_item(item_id : int, item: Item):
     return {"item_name": item.name, "item_id":item_id}
 ```
 
-> 매개변수 타입, `본문 등을 함수 매개변수`로 한번에 선언 ex) item_id : int
-> 복잡한 모델 선언 ex) item: Item //객체 형태로 넘겨준다.
+`매개변수 타입, 본문 등을 함수 매개변수로 한번에 선언 ex) item_id : int`
+
+`복잡한 모델 선언 ex) item: Item //객체 형태로 넘겨준다.`
 
 - 위와 같은 선언으로 얻은 것
     - 편집기 지원 
