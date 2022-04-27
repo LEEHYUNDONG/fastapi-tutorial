@@ -121,7 +121,7 @@ main section form > * {
     margin-top: 10px;
 }
 
-main section form button[type="button"] {
+main section form button[type="submit"] {
     margin-top: 30px;
     background-color: var(--primary-clr);
     font-weight: 600;
@@ -130,7 +130,7 @@ main section form button[type="button"] {
 }
 
 
-main section form button[type="button"]:hover {
+main section form button[type="submit"]:hover {
     background: #7373ff;
 }
 
