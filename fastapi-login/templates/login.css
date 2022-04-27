@@ -84,6 +84,7 @@ main section form input {
     border-radius: 3px;
 }
 
+
 main section form input[type="text"] {
     margin-top: 10px;
     background: var(--text-input-background-color);
@@ -120,7 +121,7 @@ main section form > * {
     margin-top: 10px;
 }
 
-main section form input[type="submit"] {
+main section form button[type="button"] {
     margin-top: 30px;
     background-color: var(--primary-clr);
     font-weight: 600;
@@ -129,7 +130,7 @@ main section form input[type="submit"] {
 }
 
 
-main section form input[type="submit"]:hover {
+main section form button[type="button"]:hover {
     background: #7373ff;
 }
 
@@ -143,15 +144,12 @@ main section form div:nth-child(2) {
             justify-content: space-between;
 }
 
-main section form button[type="button"] {
-    margin-top: 30px;
-    background-color: var(--primary-clr);
-    font-weight: 600;
-    color: white;
-    cursor: pointer;
-}
 
-
-main section form button[type="button"]:hover {
-    background: #7373ff;
+main section form button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 3px;
 }

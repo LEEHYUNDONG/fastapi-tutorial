@@ -84,6 +84,14 @@ main section form input {
     border: none;
     border-radius: 3px;
 }
+main section form button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 3px;
+}
 
 main section form input[type="text"] {
     margin-top: 10px;
@@ -118,8 +126,8 @@ main section form > * {
 }
 
 
-main section form input[type="button"] {
-    margin-top: 30px;
+main section form button[type="button"] {
+    margin-top: 10px;
     background-color: var(--primary-clr);
     font-weight: 600;
     color: white;
@@ -127,8 +135,9 @@ main section form input[type="button"] {
 }
 
 
-main section form input[type="button"]:hover {
+main section form button[type="button"]:hover {
     background: #7373ff;
+    
 }
 
 main section form div:nth-child(2) {
