@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="signup.css">
+
+    </head>
+
+    <body class="body">
+    <main>
+        <section>
+            <div class="signup-text">
+                <h1>SIGN UP</h1>
+            </div>
+            
+            <form action="#">
+                <div class="user-pass">
+                
+                    <input type="text" placeholder="FULL NAME" name="" />
+                    <input type="text" placeholder="EMAIL ADDRESS" name=""/>
+                    <input type="text" placeholder="USER NAME" name=""  />
+                    <input type="password" id="password" placeholder="PASSWORD" name="" />
+                    <i class="fas fa-eye" onclick="show()"></i>
+                </div>
+                <br>
+                <button type="button" onclick="window.location.href='login.html'">
+                    SIGN UP
+                </button>
+            </form>
+            </div>
+        </div>
+        </body>
+    </main>
+</section>
+    <script>
+    function show() {
+        var password = document.getElementById("password");
+        if (password.type === "password") {
+        password.type = "text";
+        } else {
+        password.type = "password";
+        }
+    }
+    </script>
+</html>
+</html>
