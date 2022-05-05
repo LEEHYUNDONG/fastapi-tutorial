@@ -10,5 +10,5 @@ class UserBase(BaseModel):
 class UserIn(UserBase):
     pass
 
-class UserOut(UserIn):
+class UserDB(UserBase):
     hashed_password : str
