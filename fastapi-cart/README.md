@@ -9,7 +9,7 @@
 
 
 ## Schema
-![cartDiagram](./img_src/cartDiagram.drawio.png)
+![cartDiagram](./docs/cartDiagram.drawio.png)
 
 회원 인증을 한 뒤에 회원 id를 참조하여 장바구니 테이블에 product_id와 함께 저장한다.
 
