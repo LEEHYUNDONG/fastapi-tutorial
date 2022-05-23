@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    
+    <link href="{{ url_for('static', path='/signup.css') }}" rel="stylesheet">
+
+    </head>
+
+    <body class="body">
+    <main>
+        <section>
+            <div class="signup-text">
+                <h1>SIGN UP</h1>
+            </div>
+            <form method="post">
+                <div class="user-pass">
+                    <input type="text" placeholder="USER NAME" id="username" name="username" autocomplete="off" />
+                    <input type="password" id="password" placeholder="PASSWORD" name="password" autocomplete="off" />
+                    <input type="text" placeholder="FULL NAME" id="fullname" name="fullname" autocomplete="off"/>
+                    <input type="text" placeholder="AGE" id="age" name="age" autocomplete="off" />
+                    <!-- <input type="text" placeholder="EMAIL ADDRESS" id="email" name="email"/> -->
+                    
+                    <i class="fas fa-eye" onclick="show()"></i>
+                </div>
+                <br>
+                <!-- <button type="submit" onclick="window.location.href='login.html'"> -->
+                <button type="submit" >
+                SIGN UP
+                </button>
+            </form>
+        </body>
+    </main>
+</section>
+    <script>
+    function show() {
+        var password = document.getElementById("password");
+        if (password.type === "password") {
+        password.type = "text";
+        } else {
+        password.type = "password";
+        }
+    }
+    console.log(password, username, age)
+    </script>
+</html>
+</html>
