@@ -25,9 +25,3 @@ starlette==0.17.1
 typing_extensions==4.2.0
 uvicorn==0.17.6 
 ```
-
-
-## Model, templating, Login 기능구현
-
-### Templating
-
